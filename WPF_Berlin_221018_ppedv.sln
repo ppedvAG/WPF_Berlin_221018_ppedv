@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M05_PropertyBinding", "Prop
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ColorPicker", "ColorPicker\ColorPicker.csproj", "{9EA23F6A-BFEB-403C-AE21-3C6D1ED8FEA0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M06_DataBinding", "DataBinding\M06_DataBinding.csproj", "{E806DEF2-BA6D-4E7B-9ACD-4F6EC6B41DBC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{9EA23F6A-BFEB-403C-AE21-3C6D1ED8FEA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9EA23F6A-BFEB-403C-AE21-3C6D1ED8FEA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9EA23F6A-BFEB-403C-AE21-3C6D1ED8FEA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E806DEF2-BA6D-4E7B-9ACD-4F6EC6B41DBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E806DEF2-BA6D-4E7B-9ACD-4F6EC6B41DBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E806DEF2-BA6D-4E7B-9ACD-4F6EC6B41DBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E806DEF2-BA6D-4E7B-9ACD-4F6EC6B41DBC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
