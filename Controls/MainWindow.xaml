@@ -17,7 +17,8 @@
                FontSize="25"
                HorizontalContentAlignment="Center"
                BorderBrush="Black"
-               BorderThickness="2"/>
+               BorderThickness="2"
+               FontFamily="Fonts/#From Cartoon Blocks"/>
 
         <!--TextBlöcke sind Labels, welche auf Strings spezialisiert sind. Sie besitzen statt der
             Content- die Text-Property-->

@@ -8,10 +8,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Fonts\From Cartoon Blocks.ttf" />
     <None Remove="Images\ppedv.bmp" />
   </ItemGroup>
 
   <ItemGroup>
+    <Resource Include="Fonts\From Cartoon Blocks.ttf" />
     <Resource Include="Images\ppedv.bmp" />
   </ItemGroup>
 
