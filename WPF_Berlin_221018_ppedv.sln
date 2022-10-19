@@ -13,7 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "M03_Container", "Container\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "M04_EventRouting", "EventRouting\M04_EventRouting.csproj", "{8D80BADC-3BFE-43E1-BDCA-88FC6B220BC1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PropertyBinding", "PropertyBinding\PropertyBinding.csproj", "{1F3C1EDF-8867-43DD-AA89-717D2BA22C67}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M05_PropertyBinding", "PropertyBinding\M05_PropertyBinding.csproj", "{1F3C1EDF-8867-43DD-AA89-717D2BA22C67}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ColorPicker", "ColorPicker\ColorPicker.csproj", "{9EA23F6A-BFEB-403C-AE21-3C6D1ED8FEA0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{1F3C1EDF-8867-43DD-AA89-717D2BA22C67}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1F3C1EDF-8867-43DD-AA89-717D2BA22C67}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1F3C1EDF-8867-43DD-AA89-717D2BA22C67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EA23F6A-BFEB-403C-AE21-3C6D1ED8FEA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EA23F6A-BFEB-403C-AE21-3C6D1ED8FEA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EA23F6A-BFEB-403C-AE21-3C6D1ED8FEA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EA23F6A-BFEB-403C-AE21-3C6D1ED8FEA0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
