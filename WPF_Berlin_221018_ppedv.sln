@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M06_DataBinding", "DataBind
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M07_Resources_Styles", "Ressources_Styles\M07_Resources_Styles.csproj", "{6E8C49B5-90FE-426E-A949-F1AB458BF96A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M08_Templates", "Templates\M08_Templates.csproj", "{D0FE9B85-2388-4ED5-95F1-8D3989DC4F09}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{6E8C49B5-90FE-426E-A949-F1AB458BF96A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6E8C49B5-90FE-426E-A949-F1AB458BF96A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6E8C49B5-90FE-426E-A949-F1AB458BF96A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0FE9B85-2388-4ED5-95F1-8D3989DC4F09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0FE9B85-2388-4ED5-95F1-8D3989DC4F09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0FE9B85-2388-4ED5-95F1-8D3989DC4F09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0FE9B85-2388-4ED5-95F1-8D3989DC4F09}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
