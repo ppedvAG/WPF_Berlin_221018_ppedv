@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace M07_Ressources_Styles {
+namespace Ressources_Styles {
     using System;
     
     
@@ -39,7 +39,7 @@ namespace M07_Ressources_Styles {
         public static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("M07_Ressources_Styles.Resource1", typeof(Resource1).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Ressources_Styles.Resource1", typeof(Resource1).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -61,11 +61,11 @@ namespace M07_Ressources_Styles {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Klick mich auch.
+        ///   Looks up a localized string similar to Klick mich auch!!.
         /// </summary>
-        public static string StringAusResX {
+        public static string meinButtonString {
             get {
-                return ResourceManager.GetString("StringAusResX", resourceCulture);
+                return ResourceManager.GetString("meinButtonString", resourceCulture);
             }
         }
     }

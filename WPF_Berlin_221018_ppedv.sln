@@ -19,7 +19,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ColorPicker", "ColorPicker\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M06_DataBinding", "DataBinding\M06_DataBinding.csproj", "{E806DEF2-BA6D-4E7B-9ACD-4F6EC6B41DBC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M07_Ressources_Styles", "Ressources_Styles\M07_Ressources_Styles.csproj", "{6E8C49B5-90FE-426E-A949-F1AB458BF96A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M07_Resources_Styles", "Ressources_Styles\M07_Resources_Styles.csproj", "{6E8C49B5-90FE-426E-A949-F1AB458BF96A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
