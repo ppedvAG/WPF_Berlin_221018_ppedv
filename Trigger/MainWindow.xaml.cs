@@ -13,6 +13,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using UserControls;
 
 namespace Trigger
 {
@@ -21,27 +22,50 @@ namespace Trigger
     /// </summary>
     public partial class MainWindow : Window, INotifyPropertyChanged
     {
-        public MainWindow()
-        {
-            InitializeComponent();
+        public event PropertyChangedEventHandler PropertyChanged;
 
-            this.DataContext = this;
-        }
-
+        //Property, auf die der DataTrigger reagiert
         private bool boolVal;
-
         public bool BoolVal
         {
             get { return boolVal; }
+            //Setter mit Event-Wurf
             set { boolVal = value; PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(BoolVal))); }
         }
 
 
-        public event PropertyChangedEventHandler? PropertyChanged;
+        public MainWindow()
+        {
+            InitializeComponent();
 
-        private void Btn_Change_Click(object sender, RoutedEventArgs e)
+            this.BoolVal = true;
+
+            //Setzen des DataContext
+            this.DataContext = this;
+        }
+
+        //EventHandler zum Ändern der Property
+        private void Btn_Ändern_Click(object sender, RoutedEventArgs e)
         {
             BoolVal = !BoolVal;
+        }
+
+        //EventHandler des UserControls (vgl. M11_UserControls)
+        private void ColorPicker_Tap(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show((sender as ColorPicker).PickedColor.ToString());
+        }
+
+        private void ColorPicker_PickedColorChanged(object sender, RoutedPropertyChangedEventArgs<SolidColorBrush> e)
+        {
+            Tbl_Changed.Text = $"{(e.OldValue as SolidColorBrush).ToString()} wurde zu {(e.NewValue as SolidColorBrush).ToString()}";
+        }
+
+        //EventHandler des Buttons
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            //Zugriff auf AttachedProperty
+            MessageBox.Show(ColorPicker.GetCount(sender as Button).ToString());
         }
     }
 }
