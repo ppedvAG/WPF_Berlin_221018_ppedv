@@ -13,15 +13,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "M03_Container", "Container\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "M04_EventRouting", "EventRouting\M04_EventRouting.csproj", "{8D80BADC-3BFE-43E1-BDCA-88FC6B220BC1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M05_PropertyBinding", "PropertyBinding\M05_PropertyBinding.csproj", "{1F3C1EDF-8867-43DD-AA89-717D2BA22C67}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "M05_PropertyBinding", "PropertyBinding\M05_PropertyBinding.csproj", "{1F3C1EDF-8867-43DD-AA89-717D2BA22C67}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ColorPicker", "ColorPicker\ColorPicker.csproj", "{9EA23F6A-BFEB-403C-AE21-3C6D1ED8FEA0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ColorPicker", "ColorPicker\ColorPicker.csproj", "{9EA23F6A-BFEB-403C-AE21-3C6D1ED8FEA0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M06_DataBinding", "DataBinding\M06_DataBinding.csproj", "{E806DEF2-BA6D-4E7B-9ACD-4F6EC6B41DBC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "M06_DataBinding", "DataBinding\M06_DataBinding.csproj", "{E806DEF2-BA6D-4E7B-9ACD-4F6EC6B41DBC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M07_Resources_Styles", "Ressources_Styles\M07_Resources_Styles.csproj", "{6E8C49B5-90FE-426E-A949-F1AB458BF96A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "M07_Resources_Styles", "Ressources_Styles\M07_Resources_Styles.csproj", "{6E8C49B5-90FE-426E-A949-F1AB458BF96A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M08_Templates", "Templates\M08_Templates.csproj", "{D0FE9B85-2388-4ED5-95F1-8D3989DC4F09}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "M08_Templates", "Templates\M08_Templates.csproj", "{D0FE9B85-2388-4ED5-95F1-8D3989DC4F09}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M09_Validation", "Validation\M09_Validation.csproj", "{122BF5D9-2815-4977-87B5-DFA159ECF693}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +71,10 @@ Global
 		{D0FE9B85-2388-4ED5-95F1-8D3989DC4F09}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D0FE9B85-2388-4ED5-95F1-8D3989DC4F09}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D0FE9B85-2388-4ED5-95F1-8D3989DC4F09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{122BF5D9-2815-4977-87B5-DFA159ECF693}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{122BF5D9-2815-4977-87B5-DFA159ECF693}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{122BF5D9-2815-4977-87B5-DFA159ECF693}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{122BF5D9-2815-4977-87B5-DFA159ECF693}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
