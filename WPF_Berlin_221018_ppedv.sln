@@ -25,6 +25,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "M08_Templates", "Templates\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M09_Validation", "Validation\M09_Validation.csproj", "{122BF5D9-2815-4977-87B5-DFA159ECF693}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trigger", "Trigger\Trigger.csproj", "{3D71771E-2BB4-454A-BF34-28013A649603}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{122BF5D9-2815-4977-87B5-DFA159ECF693}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{122BF5D9-2815-4977-87B5-DFA159ECF693}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{122BF5D9-2815-4977-87B5-DFA159ECF693}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D71771E-2BB4-454A-BF34-28013A649603}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D71771E-2BB4-454A-BF34-28013A649603}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D71771E-2BB4-454A-BF34-28013A649603}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D71771E-2BB4-454A-BF34-28013A649603}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
