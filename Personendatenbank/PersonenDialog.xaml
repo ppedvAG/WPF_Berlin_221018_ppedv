@@ -144,7 +144,8 @@
                    HorizontalAlignment="Right" Margin="0,5">
             <Button x:Name="Btn_Ok"
                     Content="OK"
-                    Click="Btn_Ok_Click">
+                    Click="Btn_Ok_Click"
+                    IsDefault="True">
                 <Button.Style>
                     <Style TargetType="Button" BasedOn="{StaticResource Sty_Btn_Base}">
 
@@ -169,7 +170,8 @@
             </Button>
             <Button x:Name="Btn_Abbruch"
                     Content="Abbrechen"
-                    Click="Btn_Abbruch_Click"/>
+                    Click="Btn_Abbruch_Click"
+                    IsCancel="True"/>
         </WrapPanel>
     </Grid>
 </Window>

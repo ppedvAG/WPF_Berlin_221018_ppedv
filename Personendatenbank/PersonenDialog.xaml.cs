@@ -29,8 +29,8 @@ namespace Personendatenbank
             Person neuePerson = this.DataContext as Person;
 
             string ausgabe = neuePerson.Vorname + " " + neuePerson.Nachname + " (" + neuePerson.Geschlecht + ")\n" + neuePerson.Geburtsdatum.ToShortDateString() + "\n" + neuePerson.Lieblingsfarbe.ToString();
-            if (neuePerson.Verheiratet) ausgabe = ausgabe + "\nIst verheiratet";
-            ausgabe += $"\nHat {neuePerson.Kinder} Kinder.";
+            if (neuePerson.Verheiratet) ausgabe += "\nIst verheiratet";
+            if (neuePerson.Kinder > 0) ausgabe += $"\nHat {neuePerson.Kinder} {(neuePerson.Kinder == 1 ? "Kind": "Kinder")}";
             if (MessageBox.Show
                 (
                     ausgabe + "\nAbspeichern?", 
@@ -39,6 +39,8 @@ namespace Personendatenbank
                     MessageBoxImage.Information
                 ) == MessageBoxResult.Yes)
             {
+                this.DialogResult = true;
+
                 this.Close();
             }
         }
