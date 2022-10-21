@@ -31,6 +31,9 @@ namespace Personendatenbank
         private Gender geschlecht;
         public Gender Geschlecht { get => geschlecht; set { PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(Geschlecht))); geschlecht = value; } }
 
+        private int kinder;
+        public int Kinder { get => kinder; set { PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(Kinder))); kinder = value; } }
+
         public string Error => null;
 
         public string this[string columnName]
@@ -39,17 +42,14 @@ namespace Personendatenbank
             {
                 switch (columnName)
                 {
-
                     case nameof(Vorname):
                         if (Vorname.Length <= 0 || Vorname.Length > 50) return "Bitte geben Sie Ihren Vornamen ein.";
-                        if (!Vorname.All(x => Char.IsLetter(x))) return "Der Vorname darf nur Buchstaben enthalten.";
-                        if (Char.IsLower(Vorname.First())) return "Der Vorname muss mit einem Großbuchstaben beginnen";
+                        if (!Vorname.All(x => Char.IsLetter(x))) return "Der Vorname darf nur Buchstaben einthalten.";
                         break;
 
                     case nameof(Nachname):
                         if (Nachname.Length <= 0 || Nachname.Length > 50) return "Bitte geben Sie Ihren Nachnamen ein.";
-                        if (!Nachname.All(x => Char.IsLetter(x))) return "Der Nachname darf nur Buchstaben enthalten.";
-                        if (Char.IsLower(Nachname.First())) return "Der Nachname muss mit einem Großbuchstaben beginnen";
+                        if (!Nachname.All(x => Char.IsLetter(x))) return "Der Nachname darf nur Buchstaben einthalten.";
                         break;
 
                     case nameof(Geburtsdatum):
@@ -59,6 +59,10 @@ namespace Personendatenbank
 
                     case nameof(Lieblingsfarbe):
                         if (Lieblingsfarbe.ToString().Equals("#00000000")) return "Wählen Sie Ihre Lieblingsfarbe aus.";
+                        break;
+
+                    case nameof(Kinder):
+                        if (Kinder < 0) return "Dieser Wert muss mindestens '0' sein.";
                         break;
                 }
 

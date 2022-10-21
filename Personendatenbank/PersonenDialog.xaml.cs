@@ -30,6 +30,7 @@ namespace Personendatenbank
 
             string ausgabe = neuePerson.Vorname + " " + neuePerson.Nachname + " (" + neuePerson.Geschlecht + ")\n" + neuePerson.Geburtsdatum.ToShortDateString() + "\n" + neuePerson.Lieblingsfarbe.ToString();
             if (neuePerson.Verheiratet) ausgabe = ausgabe + "\nIst verheiratet";
+            ausgabe += $"\nHat {neuePerson.Kinder} Kinder.";
             if (MessageBox.Show
                 (
                     ausgabe + "\nAbspeichern?", 
