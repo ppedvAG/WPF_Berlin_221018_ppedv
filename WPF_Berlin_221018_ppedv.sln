@@ -31,6 +31,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "M11_UserControls", "UserCon
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M13_Commands", "Commands\M13_Commands.csproj", "{CFDF872F-C5E6-425A-A79D-A1F27D52D743}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVVM", "MVVM\MVVM.csproj", "{C13150E9-FAAC-498F-92CE-BA278D307CCC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +95,10 @@ Global
 		{CFDF872F-C5E6-425A-A79D-A1F27D52D743}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CFDF872F-C5E6-425A-A79D-A1F27D52D743}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CFDF872F-C5E6-425A-A79D-A1F27D52D743}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C13150E9-FAAC-498F-92CE-BA278D307CCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C13150E9-FAAC-498F-92CE-BA278D307CCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C13150E9-FAAC-498F-92CE-BA278D307CCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C13150E9-FAAC-498F-92CE-BA278D307CCC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
