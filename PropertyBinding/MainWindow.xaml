@@ -56,7 +56,7 @@
             <!--UST=Explicit erfordert die Aktualisierung über den CodeBehind und ein Event, bei welchem diese Aktualisierung durchgeführt wird (hier das Click-event des Buttons)-->
             <!--Der FallBackValue wird aufgerufen, wenn eine Bindung nicht zustande kommt. Der TargetNullValue wird aufgerufen, wenn der Wert NULL über die Bindung an das Target gesendet wird-->
             <TextBox x:Name="Tbx_Vier" Width="80" Text="{Binding ElementName=Sdr_Vier, Path=Value, Mode=OneWayToSource, UpdateSourceTrigger=Explicit, FallbackValue='Didnt work', TargetNullValue=NULL}"/>
-            <Button Content="Aktualisieren" Click="Button_Click"/>
+            <Button Content="Aktualisieren" Click="Btn_Update_Click"/>
         </StackPanel>
 
         <StackPanel>
